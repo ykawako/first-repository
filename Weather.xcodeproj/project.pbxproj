@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6629111917A28B3300C1C716 /* tenki.png in Resources */ = {isa = PBXBuildFile; fileRef = 6629111817A28B3300C1C716 /* tenki.png */; };
 		66803D42178D694A00C9E743 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66803D41178D694A00C9E743 /* UIKit.framework */; };
 		66803D44178D694A00C9E743 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66803D43178D694A00C9E743 /* Foundation.framework */; };
 		66803D46178D694A00C9E743 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66803D45178D694A00C9E743 /* CoreGraphics.framework */; };
@@ -19,9 +20,11 @@
 		66803D5B178D694A00C9E743 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66803D59178D694A00C9E743 /* MainStoryboard_iPhone.storyboard */; };
 		66803D5E178D694A00C9E743 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66803D5C178D694A00C9E743 /* MainStoryboard_iPad.storyboard */; };
 		66803D61178D694A00C9E743 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 66803D60178D694A00C9E743 /* ViewController.m */; };
+		6691391617A2977D00BB3476 /* ame.png in Resources */ = {isa = PBXBuildFile; fileRef = 6691391517A2977D00BB3476 /* ame.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6629111817A28B3300C1C716 /* tenki.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tenki.png; path = ../tenki.png; sourceTree = "<group>"; };
 		66803D3E178D694A00C9E743 /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66803D41178D694A00C9E743 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		66803D43178D694A00C9E743 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +42,7 @@
 		66803D5D178D694A00C9E743 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		66803D5F178D694A00C9E743 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		66803D60178D694A00C9E743 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6691391517A2977D00BB3476 /* ame.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ame.png; path = ../ame.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		66803D48178D694A00C9E743 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				6691391517A2977D00BB3476 /* ame.png */,
+				6629111817A28B3300C1C716 /* tenki.png */,
 				66803D49178D694A00C9E743 /* Weather-Info.plist */,
 				66803D4A178D694A00C9E743 /* InfoPlist.strings */,
 				66803D4D178D694A00C9E743 /* main.m */,
@@ -167,6 +173,8 @@
 				66803D58178D694A00C9E743 /* Default-568h@2x.png in Resources */,
 				66803D5B178D694A00C9E743 /* MainStoryboard_iPhone.storyboard in Resources */,
 				66803D5E178D694A00C9E743 /* MainStoryboard_iPad.storyboard in Resources */,
+				6629111917A28B3300C1C716 /* tenki.png in Resources */,
+				6691391617A2977D00BB3476 /* ame.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +320,7 @@
 				66803D66178D694A00C9E743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
